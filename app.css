@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 239, 84) ;
+    
+
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-header {
+    background-color: rgb(56, 133, 56);
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav a {
+    color: #f5f5f5;
+
+}
+.nav a:hover {
+    color: rgb(253, 163, 127);
+
+}
+
+.nav .nav-menu {
+    font-size: 1rem;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(56, 133, 56);
+    padding: 20px;
+    color: white;
+}
+ main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+     min-height: 800px;
+ }
+ 
+ .aside-nav {
+    background-color: rgb(228, 228, 148);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+ }
+
+ .aside-list {
+    font-size: 1rem;
+ }
+
+ .aside-link {
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 1px solid black;
+    transition: 0.20s ease-in;
+    cursor: pointer;
+ }
+ .aside-link:hover {
+    background-color:rgb(239, 239, 84) ;
+ }
+
+ .container-home {
+
+    padding: 10px ;
+    margin: 0 ;
+    background-color: beige;
+    min-height: 800px;
+    
+}
+.text {
+    padding: 10px;
+    margin: 0;
+
+}
+
+h2 {
+   padding: 10px;
+   margin: 0;
+    
+
+}
+img {
+    padding-left: 10px;
+}
+ .products {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .products-container {
+    
+    width: 80%;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 20px;
+ }
+ 
+ .card-heading h3 {
+    padding: 10px;
+  }
+
+  
+ .contact-container {
+    display: grid;
+    max-width: 800px;
+    height: 500px;
+    padding: 10px;
+    
+ }
+ .card-footer {
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(144, 238, 144);
+  }
+   
+ .contact-info {
+    font-size: 1rem;
+    display: grid;
+    border: 1px solid black;
+    gap: 20px;
+    align-content: start;
+    padding: 20px;
+    background-color: rgb(172, 243, 172);
+    
+    
+ }
+.form-group {
+    display: grid;
+    gap: 10px;
+    padding: 5px 5px;
+
+}
+
+.form-group .form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-controls {
+    padding-top: 20px;
+    display: grid;
+    justify-items: flex-end;
+}
+
+.form-controls button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.form-controls button:hover {
+    background-color:rgb(239, 239, 84) ;
+  }
+
+  
